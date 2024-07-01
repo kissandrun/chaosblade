@@ -18,7 +18,7 @@ GO_MODULE=GO111MODULE=on
 VERSION_PKG=github.com/chaosblade-io/chaosblade/version
 # Specify chaosblade version in docker experiments
 CRI_BLADE_VERSION=github.com/chaosblade-io/chaosblade-exec-cri/version
-OS_BLADE_VERSION=github.com/chaosblade-io/chaosblade-exec-os/version
+OS_BLADE_VERSION=github.com/kissandrun/chaosblade-exec-os/version
 JVM_BLADE_VERSION=github.com/chaosblade-io/chaosblade-exec-jvm/version
 K8S_BLADE_VERSION=github.com/chaosblade-io/chaosblade-operator/version
 
@@ -45,7 +45,7 @@ BUILD_ARM_IMAGE_PATH=build/image/blade_arm
 BUILD_TARGET_CACHE=$(BUILD_TARGET)/cache
 
 # chaosblade-exec-os
-BLADE_EXEC_OS_PROJECT=https://github.com/chaosblade-io/chaosblade-exec-os.git
+BLADE_EXEC_OS_PROJECT=https://github.com/kissandrun/chaosblade-exec-os.git
 BLADE_EXEC_OS_BRANCH=master
 
 # chaosblade-exec-middleware

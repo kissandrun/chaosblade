@@ -6,9 +6,9 @@ require (
 	github.com/chaosblade-io/chaosblade-exec-cloud v1.7.3
 	github.com/chaosblade-io/chaosblade-exec-cri v1.7.3
 	github.com/chaosblade-io/chaosblade-exec-middleware v1.7.3
-	github.com/chaosblade-io/chaosblade-exec-os v1.7.3
 	github.com/chaosblade-io/chaosblade-operator v1.7.3
 	github.com/chaosblade-io/chaosblade-spec-go v1.7.3
+	github.com/deepsola/chaosblade-exec-os v1.0.3-0.20240315030724-21901f0c3cf5
 	github.com/mattn/go-sqlite3 v1.10.1-0.20190217174029-ad30583d8387
 	github.com/olekukonko/tablewriter v0.0.5-0.20201029120751-42e21c7531a3
 	github.com/shirou/gopsutil v3.21.8-0.20210816101416-f86a04298073+incompatible
@@ -29,6 +29,7 @@ require (
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/bits-and-blooms/bitset v1.2.0 // indirect
 	github.com/cespare/xxhash/v2 v2.1.2 // indirect
+	github.com/chaosblade-io/chaosblade-exec-os v1.7.3 // indirect
 	github.com/containerd/cgroups v1.0.2-0.20210605143700-23b51209bf7b // indirect
 	github.com/containerd/containerd v1.5.6 // indirect
 	github.com/containerd/continuity v0.1.0 // indirect
@@ -114,3 +115,5 @@ require (
 )
 
 replace k8s.io/client-go => k8s.io/client-go v0.20.6
+
+replace github.com/deepsola/chaosblade-exec-os => github.com/kissandrun/chaosblade-exec-os v0.0.0-20240628093104-c10eaac6b9fe
